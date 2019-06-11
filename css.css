@@ -50,7 +50,7 @@ li a:active {
 
 .column {
   /* equation: (margin*4)+(width*2)=100% */
-  float: left;
+ 
   width: 40%;
   margin: 5%;
 }
