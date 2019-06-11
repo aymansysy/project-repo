@@ -56,7 +56,7 @@ li a:active {
 }
 
 .container {
-  position:fixed;
+  position: static;
   box-shadow: 5px 10px 8px 10px #888888;
   border-radius: 50%;
 }
