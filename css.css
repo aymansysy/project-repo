@@ -50,13 +50,13 @@ li a:active {
 
 .column {
   /* equation: (margin*4)+(width*2)=100% */
- 
+  float:left;
   width: 40%;
   margin: 5%;
 }
 
 .container {
-  position: relative;
+  position:fixed;
   box-shadow: 5px 10px 8px 10px #888888;
   border-radius: 50%;
 }
