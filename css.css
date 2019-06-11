@@ -23,7 +23,7 @@ body{
   display: inline;
   /*font-family:"<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700" rel="stylesheet">";*/
   font-size: 1em;
-  margin: 7%; /* 6x+3words=100%  x=8 */
+  margin: 10%; /* 6x+3words=100%  x=8 */
   /*padding:10px;*/
   top: 0px;
   text-align: center;
