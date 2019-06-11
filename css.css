@@ -48,15 +48,16 @@ li a:active {
   color: rgb(245, 245, 245);
 }
 
+
 .column {
   /* equation: (margin*4)+(width*2)=100% */
-  float:left;
+  float: left;
   width: 40%;
   margin: 5%;
 }
 
 .container {
-  position: static;
+  position: relative;
   box-shadow: 5px 10px 8px 10px #888888;
   border-radius: 50%;
 }
