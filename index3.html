@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>JavaScript Quiz</title>
+<title>Rijksmuseum Quiz</title>
 <style>
 body {
 background-color: lightblue;
@@ -24,43 +24,48 @@ border: 2px solid black;
 padding: 5px;
 height: 250px;
 background: beige;
-background-image: url("https://lh3.googleusercontent.com/OkqnVc24xPmb2qoepvZBarCk54pqiZcN3ODqhCtO5TWNIS_XekKFIuObxsg4NMzMkFY4dMWKes6jHVznav4QDZnNTk4=s0");
+background-image: url("https://www.telegraph.co.uk/content/dam/Travel/2019/February/Getty-night-watch-travel.jpg?imwidth=450");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 color: white;
+background-color: #cccccc;
 }
 </style>
 </head>
 <body>
 <div id="main"><!-- open main div -->
 <div id="header"><!-- open header div -->
-<h1>JavaScript Quiz</h1>
+<h1>Rijksmuseum Quiz</h1>
 </div><!-- close header div -->
 
 
 <form id="form1">
 
-<h2>Which is the best description of a variable?</h2>
-<label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />Identifies a portion of a string.</label><br>
-<label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />A method to join strings.</label><br>
-<label for="var_info"><input type="radio" name="variable" value="25" id="var_info" />Allows you to store information so it can be reused throughout the program</label><br>
-<label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Allows you to make a decision based on a condition.</label><br>
+<h2>We ease you in gently, with one of the best-known paintings by perhaps the most famous of all Dutch artists. Painted in 1642, its official title is "The Shooting Company of Frans Banning Cocq and Willem van Ruytenburgh". Who is the artist?</h2>
+<label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />Hals</label><br>
+<label for="var_join"><input type="radio" name="variable" value="25" id="var_join" />Rembrandt</label><br>
+<label for="var_info"><input type="radio" name="variable" value="0" id="var_info" />Vermeer</label><br>
+<label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Van Haarlem</label><br>
 
-<h2>Which is the best description of the substring method?</h2>
-<label for="sub_string"><input type="radio" name="sub" value="25" id="sub_string"/>Identifies a portion of a string.</label><br>
-<label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>A method to join strings.</label><br>
-<label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Allows you to store information so it can be reused throughout the program</label><br>
-<label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Allows you to make a decision based on a condition.</label><br>
+<h2> Purchased by the Rijksmuseum in 1816, "The Merry Drinker" is a portrait dating to between 1628 and 1630. Painted by a Dutch Golden Age artist who lived and worked in Haarlem, the loose brushwork is typical of his lively style that heavily influenced Dutch portraiture in the 17th century. Who is the artist?</h2>
+<label for="sub_string"><input type="radio" name="sub" value="25" id="sub_string"/>Frans Hals</label><br>
+<label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>Jacob van Ruisdael</label><br>
+<label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Johannes Vermeer</label><br>
+<label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Carel Fabritius</label><br>
 
-<h2>Which is the best description of concatenation?</h2>
-<label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />Identifies a portion of a string.</label><br>
-<label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />A method to join strings.</label><br>
-<label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />Allows you to store information so it can be reused throughout the program</label><br>
-<label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Allows you to make a decision based on a condition.</label><br>
+<h2>
+ The small ("15"x18") "Woman in Blue Reading a Letter" dates to 1662-63. The interior scene of domestic life is typical of an artist who amazingly produced a mere 34 paintings in his lifetime. Who is this artist?</h2>
+<label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />Jan van Goyen</label><br>
+<label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />Johannes Vermeer</label><br>
+<label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />Jan de Bray</label><br>
+<label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Pieter de Hooch</label><br>
 
-<h2>Which is the best description of an if statement?</h2>
-<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Identifies a portion of a string.</label><br>
-<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />A method to join strings.</label><br>
-<label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Allows you to store information so it can be reused throughout the program</label><br>
-<label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />Allows you to make a decision based on a condition.</label><br>
+<h2> Painted sometime around 1670, "The Windmill at Wijk bij Duurstede" is a work by an artist widely considered the pre-eminent landscape painter of the Dutch Golden Age. Particularly noted for his big skies and numerous paintings of waterfalls, he was both prolific and versatile. Who is this artist?</h2>
+<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Meindert Hobbema</label><br>
+<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />Nicolaes Maes</label><br>
+<label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Judith Leyster</label><br>
+<label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />Jacob van Ruisdael</label><br>
 
 <button type="submit" value="Submit">Submit</button>
 
