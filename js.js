@@ -68,33 +68,15 @@
   const submitButton = document.getElementById("submit");
   const myQuestions = [
     {
-      question: "Who is the strongest?",
+      question: "qeus1?",
       answers: {
-        a: "Superman",
-        b: "The Terminator",
-        c: "Waluigi, obviously"
+        a: "hh",
+        b: "hh",
+        c: "hh"
       },
       correctAnswer: "c"
     },
-    {
-      question: "What is the best site ever created?",
-      answers: {
-        a: "SitePoint",
-        b: "Simple Steps Code",
-        c: "Trick question; they're both the best"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "Where is Waldo really?",
-      answers: {
-        a: "Antarctica",
-        b: "Exploring the Pacific Ocean",
-        c: "Sitting in a tree",
-        d: "Minding his own business, so stop asking"
-      },
-      correctAnswer: "d"
-    }
+    
   ];
 
   // display quiz right away
