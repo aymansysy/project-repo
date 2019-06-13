@@ -57,17 +57,17 @@ li a:active {
 }
 
 .container {
-  position: sticky;
+  position: relative;
   box-shadow: 5px 10px 8px 10px #888888;
   border-radius: 50%;
 }
 
 .container:hover .members {
-  opacity: 1;
+  opacity: 0.6;
 }
 
 .container:hover .middle {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .members {
