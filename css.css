@@ -120,6 +120,7 @@ p {
   font-size: 2.5em;
 }
 #Tickets{
+  float: left;
   color: rgb(32, 27, 33);
   font-size: 2.5em;
 }
