@@ -63,11 +63,11 @@ li a:active {
 }
 
 .container:hover .members {
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .container:hover .middle {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .members {
