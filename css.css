@@ -87,6 +87,7 @@ li a:active {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  font-size: 8px;
 }
 
 .name {
@@ -120,11 +121,19 @@ p {
   font-size: 2.5em;
 }
 #Tickets{
+  color: rgb(32, 27, 33);
+  font-size: 2.5em;
+}
+#location{
   float: left;
   color: rgb(32, 27, 33);
   font-size: 2.5em;
 }
-
+#mail{
+text-align: center;
+color: rgb(32, 27, 33);
+font-size: 2.5em; 
+}
 .right {
   float: right;
   width: 25%;
