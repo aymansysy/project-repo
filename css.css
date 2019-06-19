@@ -104,13 +104,18 @@ iframe {
 }
 
 .albums {
-  width: 400px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
   margin: 20px;
   border: 2px solid black;
   box-shadow: 5px 10px 8px 10px #888888;
+  border-radius: 8px;
+
 }
 
 p {
+  font-size: 20px;
   color: rgb(6, 56, 115);
   margin: 2%;
   line-height: 1.6;
