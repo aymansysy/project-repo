@@ -10,6 +10,8 @@
     <li><a href="#artists">Artists</a></li>
     <li><a href="index4.html">Test your info</a></li>
     <li><a href="#location">Tickets & Contact</a></li>
+    <li><a href="todo.html">Plan your visit</a></li>
+
 
   </ul>
 </div>
@@ -17,49 +19,7 @@
 
 <img src="https://www.newbridges.nl/wp-content/uploads/2016/06/E-Rijksmuseum-Amsterdam.jpg" alt="1280px logo svg" width=100%>
 
-<SCRIPT language=JavaScript>
-var NS4 = (document.layers);    
-var IE4 = (document.all);
-var win = window;    
-var n   = 0;
-function findInPage(str) {
-var txt, i, found;
-if (str == "")
-return false;
-if (NS4) {
-if (!win.find(str))
-  while(win.find(str, false, true))
-    n++;
-else
-  n++;
-if (n == 0)
-  alert("Not found.");
-}
-if (IE4) {
-txt = win.document.body.createTextRange();
-for (i = 0; i <= n && (found = txt.findText(str)) != false; i++) {
-  txt.moveStart("character", 1);
-  txt.moveEnd("textedit");
-}
-if (found) {
-  txt.moveStart("character", -1);
-  txt.findText(str);
-  txt.select();
-  txt.scrollIntoView();
-  n++;
-}
-else {
-  if (n > 0) {
-    n = 0;
-    findInPage(str);
-  }
-  else
-    alert("Sorry, we couldn't find.Try again");
-}
-}
-return false;
-}
-</SCRIPT>
+
 
 <p id="Introduction"><br>
   <img class="right" id="infographic" src="https://tickets.holland.com/wp-content/uploads/2015/07/rijksmuseum-bew.jpg" alt="E-Rijksmuseum-Amsterdam">
