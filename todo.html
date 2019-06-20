@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>To-Do</title>
+ <script>
+  function addItem() {
+   var newItem = document.createElement("div");
+   newItem.innerHTML = document.getElementById("box").value;
+   newItem.onclick = removeItem;
+   document.getElementById("list").appendChild(newItem);
+   saveList();
+  }
+  function removeItem() {
+   document.getElementById("list").removeChild(this);
+   saveList();
+  }
+  function saveList() {
+   localStorage.storedList = document.getElementById("list").innerHTML;
+  }
+  function loadList() {
+   document.getElementById("list").innerHTML = localStorage.storedList;
+   for(var i = 0; i < list.children.length; i++) {
+    list.children[i].onclick = removeItem;
+   }
+  }
+ </script>
+ <style>
+  body{
+  background-image: url("https://image.ibb.co/cnH2Fx/pattern1.png");
+  font-family: "Almendra";
+  font-size: 0.5em;}
+   h2{
+	font-family: sans-serif;
+	font-variant-ligatures: discretionary-ligatures;
+	animation-fill-mode: forwards;
+	color: transparent;
+    }
+  .header {
+  	color: white;
+    height:75px; 
+    width: 350px; 
+    background-color:navy; 
+    float: center; 
+    padding:10px; 
+    margin:20px;
+    text-align:centre; 
+    font-size:24px;
+  }
+  .app {
+  	color: white;
+    height:600px;
+    width: 350px; 
+    background-color:black; 
+    float: center; 
+    padding:10px; 
+    margin:20px;
+    font-size: 18px;
+  }
+  input[type="button"] {
+   background-color: pink;
+  }
+ </style>
+</head>
+<body>
+ <img src="https://www.newbridges.nl/wp-content/uploads/2016/06/E-Rijksmuseum-Amsterdam.jpg" alt="1280px logo svg" width=100%>
+
+ <div class="header">
+  <img src="" style="float: left;"> 
+  <p>Rijksmuseum-Amsterdam</p>
+ </div>
+ <div class="app">
+  <p style="font-size:25px; font-style:bold;">Plan your visit!  what would you like to see at the rijksmuseum?</p>
+  <input type="text" id="box" value="Type here to add objects"/>
+  <br/>
+  <input type="button" value="Add objects" onclick="addItem();"/>
+  <br/>
+  <h5>delet opject by pressing on it</h5>
+   <div id="list"></div>
+ </div>
+ <script>
+  if(localStorage.storedList) {
+   loadList();
+  }
+ </script>
+ 
+</body>
+</html>
